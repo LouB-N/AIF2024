@@ -14,7 +14,7 @@ def load_and_predict():
 
     # Load and display the image
     img = Image.open(file_path)
-    img = img.resize((600, 600))  # resize for display
+    img = img.resize((300, 300))  # resize for display
     img_tk = ImageTk.PhotoImage(img)
     label_image.config(image=img_tk)
     label_image.image = img_tk
